@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css.css">
+    <link rel="shortcut icon" href="img/favi.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+    <div id="contenedor4">
+        <h1 id="tituloform">Formulario de Contacto</h1>
+        <p id="parrafoform">Dejame tus datos escenciales para ponernos en contacto.</p>
+        <form action="mailto:pepito@pepe.com">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="nombre">Nombre</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="apellidos">Apellidos</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="dni">DNI</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="cod">Código Postal</label>
+                <br>
+                <input type="text">
+                <br>
+                <label for="telefono">Teléfono</label>
+                <br>
+                <input type="tel" placeholder="Ej: 123456789" maxlength="5">
+                <br>
+                <label for="Fecha">Fecha Nacimiento</label>
+                <br>
+                <input type="datetime-local" name="Fecha" id="">
+                <br>
+                <label for="Correo">Email</label>
+                <br>
+                <input type="email" name="Correo" id="">
+            </fieldset>
+            <fieldset>
+                <legend>Requisitos para contactarnos</legend>
+                <label for="requisitos">Que juegos has jugado?</label>
+                <br>
+                   <div class="checkbox-group">
+                        <label for="MS1">
+                            <input type="checkbox" name="MS1" id="MS1"> Metal Slug
+                        </label>
+                        <label for="MS2">
+                            <input type="checkbox" name="MS2" id="MS2"> Metal Slug 2
+                        </label>
+                        <label for="MS3">
+                            <input type="checkbox" name="MS3" id="MS3"> Metal Slug 3
+                        </label>
+                        <label for="MS4">
+                            <input type="checkbox" name="MS4" id="MS4"> Metal Slug 4
+                        </label>
+                        <label for="MS5">
+                            <input type="checkbox" name="MS5" id="MS5"> Metal Slug 5
+                        </label>
+                        <label for="MS6">
+                            <input type="checkbox" name="MS6" id="MS6"> Metal Slug 6
+                        </label>
+                        <label for="MS7">
+                            <input type="checkbox" name="MS7" id="MS7"> Metal Slug 7
+                        </label>
+                    </div>
+                <br>
+                <label for="">Personaje Favorito?</label>
+                <br>
+                <select name="personaje" id="">
+                    <option value="marco">Marco</option>
+                    <option value="tarma">Tarma</option>
+                    <option value="eri">Eri</option>
+                    <option value="fio">Fio</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios adicionales</legend>
+                <textarea name="mensaje" rows="10" cols="50" id=""></textarea>
+            </fieldset>
+            <div class="botones">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+        <img src="img/tanque.png" alt="tanque" id="imgtanque">
+    </div>
+</body>
+</html>
